@@ -1,13 +1,18 @@
 package com.inches.flashlight;
-import android.support.v4.app.*;
+
 import android.os.*;
-import android.view.*;
-import android.widget.*;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.LayoutInflater;
+import android.widget.CompoundButton;
+import android.widget.ToggleButton;
+import android.content.Context;
 import android.content.pm.PackageManager;
-import android.content.*;
 import android.hardware.Camera;
 import android.hardware.Camera.Parameters;
 import android.util.Log;
+
+import android.support.v4.app.Fragment;
 
 public class Frag_NormalFlash extends Fragment
 {

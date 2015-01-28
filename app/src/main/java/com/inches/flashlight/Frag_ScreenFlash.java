@@ -3,13 +3,15 @@ package com.inches.flashlight;
 import android.support.v4.app.Fragment;
 import android.view.*;
 import android.os.*;
-import android.widget.*;
-import android.widget.CompoundButton.*;
+import android.widget.ToggleButton;
+import android.widget.CompoundButton;
 import android.widget.SeekBar.*;
-import android.widget.AbsoluteLayout.*;
+import android.widget.AbsoluteLayout;
 
 import android.util.Log;
 import android.app.*;
+import android.widget.CompoundButton.*;
+import android.widget.*;
 
 public class Frag_ScreenFlash extends Fragment
 {
